@@ -14,7 +14,7 @@
 3. 安装 Node.js
 4. 进入本项目所在目录，运行 `npm install -g pnpm` 安装 pnpm 包管理器
 5. 运行 `pnpm install` 安装依赖
-6. 将扣子空间的 jsx 重命名为 `coze.tsx`（注意扩展名要改为 `tsx`），放入 `src` 目录，覆盖原有的 `coze.tsx` 文件
+6. 将扣子空间生成的 jsx 重命名为 `coze.tsx`（注意后缀要改为 tsx），放入 `src` 目录，覆盖原有的 `coze.tsx` 文件
 
 ![](/img/1745898560927.webp)
 
