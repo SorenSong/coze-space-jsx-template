@@ -138,13 +138,13 @@ const QinghaiGansuTour = () => {
       description: '藏传佛教格鲁派六大寺院之一，以酥油花、壁画和堆绣闻名，被誉为"艺术三绝"。',
       price: '门票约80元',
       image: 'https://example.com/taer_monastery.jpg'
-    }
+    },
      {
       name: '察尔汗盐湖',
       description: '藏传佛教格鲁派六大寺院之一，以酥油花、壁画和堆绣闻名，被誉为"艺术三绝"。',
       price: '门票约80元',
       image: 'https://example.com/taer_monastery.jpg'
-    }
+    },
    {
       name: '水上雅丹',
       description: '藏传佛教格鲁派六大寺院之一，以酥油花、壁画和堆绣闻名，被誉为"艺术三绝"。',
