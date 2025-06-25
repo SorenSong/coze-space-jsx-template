@@ -31,39 +31,39 @@ const QinghaiGansuTour = () => {
   const dailyItinerary = [
     {
       day: 1,
-      title: '西宁 - 门源 - 张掖',
-      morning: '从西宁出发，沿G227国道前往门源。七八月前后，沿途可见美丽壮观的油菜花、岗什卡雪峰等。达坂、草场、雪山、湖泊、经幡、牛羊、花海，构成了祁连山美轮美奂的自然风光。',
-      afternoon: '抵达张掖丹霞国家地质公园，参观游览。这里是中国最美的丹霞地貌之一，多个观景台的最佳观赏时机在阳光灿烂之后。',
-      evening: '入住张掖市区酒店，品尝当地美食，如炒拨拉、灰豆汤等。',
+      title: '西宁 - 青海湖断崖 - 德令哈',
+      morning: '从西宁出发，前往青海湖断崖，路途可观赏大片油菜花，景区有壮观的湟鱼湟鱼洄游和海鸟飞翔（6 - 8月最佳）。',
+      afternoon: '沿着环湖西路前往东格尔观景台，近距离接触青海湖。',
+      evening: '入住德令哈市区民宿，品尝炕羊肉、青海老酸奶等美食',
       image: 'https://example.com/zhangye_danxia.jpg'
     },
     {
       day: 2,
-      title: '张掖 - 嘉峪关 - 敦煌',
-      morning: '从张掖出发，沿G30连霍高速前往嘉峪关，参观天下第一关 - 嘉峪关城楼，感受历史的沧桑。',
-      afternoon: '继续前往敦煌，途中可参观大地之子巨型雕塑。傍晚到达敦煌后，前往鸣沙山月牙泉，体验骑骆驼，欣赏沙漠日落。',
-      evening: '入住敦煌市区酒店，逛敦煌夜市，品尝驴肉黄面、杏皮水等特色小吃。',
+      title: '德令哈 - 托素湖 - 察尔汗盐湖 - 格尔木',
+      morning: '从德令哈出发，前往托素湖，这里湖面辽阔，周围为戈壁滩，以鸟类栖息地和“外星人遗址”地质奇观著称。',
+      afternoon: '接着前往察尔汗盐湖，广阔又青绿色的盐湖，彷佛人间绿宝石。',
+      evening: '入住格尔木市区民宿，品尝当地美食。',
       image: 'https://example.com/mingsha_mountain.jpg'
     },
     {
       day: 3,
-      title: '敦煌',
-      morning: '参观莫高窟，这是世界文化遗产，有着千年的壁画和雕塑，是艺术的殿堂。记得提前预约门票，B票也能看8个洞窟，建议带个小手电。',
-      afternoon: '自由活动或休息，也可以再次前往鸣沙山月牙泉，深度体验沙漠风情。',
-      evening: '入住敦煌市区酒店。',
+      title: '格尔木 - 水上雅丹 - 大柴旦',
+      morning: '从格尔木沿着U型公路前往上水雅丹，沿途可以在安全区域拍摄公路大片，抵达景区参观水上雅丹特殊地貌。',
+      afternoon: '途经西台吉乃湖，路边湖水蓝绿双色泾渭分明；折返观赏日落下的荒漠雅丹。',
+      evening: '晚上入住大柴旦镇区民宿，品尝当地美食。',
       image: 'https://example.com/mogao_caves.jpg'
     },
     {
       day: 4,
-      title: '敦煌 - 大柴旦',
-      morning: '从敦煌出发，穿越雅丹地貌，前往大柴旦。途中可参观雅丹魔鬼城，感受大自然的鬼斧神工。这里风特别大，记得把帽子系紧。',
-      afternoon: '到达大柴旦翡翠湖，湖水因盐度和矿物质含量不同，呈现出深浅不一的绿色，宛如散落在大地上的翡翠。等光线柔和时湖水颜色最美，适合拍照。',
-      evening: '入住大柴旦镇酒店，尝尝高原牦牛肉。',
+      title: '大柴旦 - 翡翠湖 - 黑独山 - 敦煌',
+      morning: '从大柴旦出发前往大柴旦翡翠湖，这里有大地的调色盘，欣赏大自然的色彩美学盐湖。',
+      afternoon: '前往黑独山，观赏中国水墨画的山脉。',
+      evening: '入住敦煌市区民宿，逛敦煌夜市，品尝驴肉黄面、杏皮水等特色。',
       image: 'https://example.com/daochaidan_emerald_lake.jpg'
     },
     {
       day: 5,
-      title: '大柴旦 - 德令哈',
+      title: '敦煌 - 鸣沙山月牙泉',
       morning: '从大柴旦出发，途径网红315U型公路，注意安全拍照。接着前往水上雅丹地质公园，这里是世界上唯一的水上雅丹地貌，乘坐景区观光车深入游览。',
       afternoon: '继续前往德令哈，途中可参观南八仙雅丹地貌。到达德令哈后，可参观可鲁克湖和托素湖，感受"情人湖"的浪漫。',
       evening: '入住德令哈市区酒店，品尝炕羊肉、青海老酸奶等美食。',
@@ -71,7 +71,7 @@ const QinghaiGansuTour = () => {
     },
     {
       day: 6,
-      title: '德令哈 - 茶卡盐湖 - 青海湖',
+      title: '敦煌 - 莫高窟 - 玉门魔山 - 嘉峪关',
       morning: '从德令哈出发，前往茶卡盐湖，体验"天空之镜"的奇妙感觉。茶卡盐湖要选晴天去，穿亮色衣服拍照好看。建议带双拖鞋，盐粒扎脚。',
       afternoon: '前往青海湖，可选择在黑马河乡附近欣赏青海湖日落，或者在二郎剑景区乘船游湖，近距离观赏湟鱼洄游（6 - 8月最佳）。',
       evening: '入住青海湖周边酒店或民宿。',
@@ -79,7 +79,7 @@ const QinghaiGansuTour = () => {
     },
     {
       day: 7,
-      title: '青海湖 - 西宁',
+      title: '嘉峪关 - 七彩丹霞 - 祁连',
       morning: '早起欣赏青海湖日出，之后沿青海湖环湖东路行驶，欣赏湖光山色。途中可参观日月山，感受藏文化的独特魅力。',
       afternoon: '返回西宁，途中可参观塔尔寺，这是藏传佛教格鲁派六大寺院之一，以酥油花、壁画和堆绣闻名，被誉为"艺术三绝"。进寺庙要顺时针走，不要踩门槛。',
       evening: '入住西宁市区酒店，逛逛莫家街，品尝老酸奶、甜醅等当地美食。',
@@ -87,7 +87,7 @@ const QinghaiGansuTour = () => {
     },
     {
       day: 8,
-      title: '西宁',
+      title: '祁连 - ',
       morning: '自由活动或购物，购买一些当地特产作为伴手礼，如黑枸杞、牦牛肉干等。',
       afternoon: '结束愉快的青甘大环线之旅，返程回家。',
       evening: '',
@@ -141,53 +141,6 @@ const QinghaiGansuTour = () => {
     }
   ];
 
-  // 住宿建议
-  const accommodations = [
-    {
-      location: '西宁',
-      suggestion: '建议选择城西区的酒店，方便第二天出发。如如家精选（西宁火车站广场店），离火车站很近，打车10元左右，有早餐，前台可代收快递。'
-    },
-    {
-      location: '张掖',
-      suggestion: '可选择住在七彩丹霞景区附近的酒店，如七彩丹霞沟隐原舍酒店，离景区很近，能起得来的小伙伴第二天可以步行去景区看日出。'
-    },
-    {
-      location: '敦煌',
-      suggestion: '推荐IU酒店（敦煌市政广场店），地理位置优越，步行可到敦煌夜市。'
-    },
-    {
-      location: '大柴旦',
-      suggestion: '丽湖雅致大酒店（翡翠商业步行街店）等。'
-    },
-    {
-      location: '德令哈',
-      suggestion: '可选择市区的商务酒店。'
-    },
-    {
-      location: '青海湖',
-      suggestion: '黑马河乡附近有很多民宿可供选择，方便欣赏青海湖日出和日落。'
-    }
-  ];
-
-  // 美食推荐
-  const foods = [
-    {
-      location: '西宁',
-      items: ['手抓羊肉', '酸奶', '甜醅']
-    },
-    {
-      location: '张掖',
-      items: ['炒拨拉', '灰豆汤', '炒炮仗']
-    },
-    {
-      location: '敦煌',
-      items: ['驴肉黄面', '杏皮水', '馕坑肉']
-    },
-    {
-      location: '德令哈',
-      items: ['炕羊肉', '高原牦牛肉']
-    }
-  ];
 
   // 注意事项
   const notes = [
@@ -225,19 +178,13 @@ const QinghaiGansuTour = () => {
     { name: '最佳季节', value: '6-9月', icon: <Sun size={24} /> }
   ];
 
-  // 图表数据
-  const chartData = [
-    { name: '自然景观', value: 5 },
-    { name: '人文景观', value: 3 },
-    { name: '湖泊', value: 4 },
-    { name: '沙漠', value: 2 }
-  ];
+ 
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const scrollToSection = (sectionId:string) => {
+  const scrollToSection = (sectionId=String) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -504,70 +451,9 @@ const QinghaiGansuTour = () => {
           </div>
         </section>
 
-        {/* 住宿建议 */}
-        <section id="accommodation" className="mb-16">
-          <h2 className="text-3xl font-bold mb-8 flex items-center">
-            <Hotel className="text-teal-600 mr-3" size={28} />
-            住宿建议
-          </h2>
+        
 
-          <div className="bg-white rounded-xl shadow-lg p-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {accommodations.map((item, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  className="border border-gray-200 rounded-lg p-4"
-                >
-                  <h3 className="text-xl font-semibold mb-2 flex items-center">
-                    <MapPin className="text-teal-600 mr-2" size={20} />
-                    {item.location}
-                  </h3>
-                  <p className="text-gray-600">{item.suggestion}</p>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* 美食推荐 */}
-        <section id="food" className="mb-16">
-          <h2 className="text-3xl font-bold mb-8 flex items-center">
-            <Utensils className="text-teal-600 mr-3" size={28} />
-            美食推荐
-          </h2>
-
-          <div className="bg-white rounded-xl shadow-lg p-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {foods.map((food, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  className="border border-gray-200 rounded-lg p-4"
-                >
-                  <h3 className="text-xl font-semibold mb-3 flex items-center">
-                    <MapPin className="text-teal-600 mr-2" size={20} />
-                    {food.location}
-                  </h3>
-                  <ul className="space-y-2">
-                    {food.items.map((item, idx) => (
-                      <li key={idx} className="flex items-center">
-                        <span className="w-1.5 h-1.5 rounded-full bg-teal-500 mr-2"></span>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
+        
 
         {/* 注意事项 */}
         <section id="notes" className="mb-16">
