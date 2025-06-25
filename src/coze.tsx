@@ -237,7 +237,7 @@ const QinghaiGansuTour = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId=String) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
