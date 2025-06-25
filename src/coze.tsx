@@ -141,6 +141,53 @@ const QinghaiGansuTour = () => {
     }
   ];
 
+  // 住宿建议
+  const accommodations = [
+    {
+      location: '西宁',
+      suggestion: '建议选择城西区的酒店，方便第二天出发。如如家精选（西宁火车站广场店），离火车站很近，打车10元左右，有早餐，前台可代收快递。'
+    },
+    {
+      location: '张掖',
+      suggestion: '可选择住在七彩丹霞景区附近的酒店，如七彩丹霞沟隐原舍酒店，离景区很近，能起得来的小伙伴第二天可以步行去景区看日出。'
+    },
+    {
+      location: '敦煌',
+      suggestion: '推荐IU酒店（敦煌市政广场店），地理位置优越，步行可到敦煌夜市。'
+    },
+    {
+      location: '大柴旦',
+      suggestion: '丽湖雅致大酒店（翡翠商业步行街店）等。'
+    },
+    {
+      location: '德令哈',
+      suggestion: '可选择市区的商务酒店。'
+    },
+    {
+      location: '青海湖',
+      suggestion: '黑马河乡附近有很多民宿可供选择，方便欣赏青海湖日出和日落。'
+    }
+  ];
+
+  // 美食推荐
+  const foods = [
+    {
+      location: '西宁',
+      items: ['手抓羊肉', '酸奶', '甜醅']
+    },
+    {
+      location: '张掖',
+      items: ['炒拨拉', '灰豆汤', '炒炮仗']
+    },
+    {
+      location: '敦煌',
+      items: ['驴肉黄面', '杏皮水', '馕坑肉']
+    },
+    {
+      location: '德令哈',
+      items: ['炕羊肉', '高原牦牛肉']
+    }
+  ];
 
   // 注意事项
   const notes = [
@@ -178,13 +225,19 @@ const QinghaiGansuTour = () => {
     { name: '最佳季节', value: '6-9月', icon: <Sun size={24} /> }
   ];
 
- 
+  // 图表数据
+  const chartData = [
+    { name: '自然景观', value: 5 },
+    { name: '人文景观', value: 3 },
+    { name: '湖泊', value: 4 },
+    { name: '沙漠', value: 2 }
+  ];
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const scrollToSection = (sectionId=String) => {
+  const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -451,9 +504,70 @@ const QinghaiGansuTour = () => {
           </div>
         </section>
 
-        
+        {/* 住宿建议 */}
+        <section id="accommodation" className="mb-16">
+          <h2 className="text-3xl font-bold mb-8 flex items-center">
+            <Hotel className="text-teal-600 mr-3" size={28} />
+            住宿建议
+          </h2>
 
-        
+          <div className="bg-white rounded-xl shadow-lg p-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {accommodations.map((item, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  viewport={{ once: true }}
+                  className="border border-gray-200 rounded-lg p-4"
+                >
+                  <h3 className="text-xl font-semibold mb-2 flex items-center">
+                    <MapPin className="text-teal-600 mr-2" size={20} />
+                    {item.location}
+                  </h3>
+                  <p className="text-gray-600">{item.suggestion}</p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* 美食推荐 */}
+        <section id="food" className="mb-16">
+          <h2 className="text-3xl font-bold mb-8 flex items-center">
+            <Utensils className="text-teal-600 mr-3" size={28} />
+            美食推荐
+          </h2>
+
+          <div className="bg-white rounded-xl shadow-lg p-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {foods.map((food, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  viewport={{ once: true }}
+                  className="border border-gray-200 rounded-lg p-4"
+                >
+                  <h3 className="text-xl font-semibold mb-3 flex items-center">
+                    <MapPin className="text-teal-600 mr-2" size={20} />
+                    {food.location}
+                  </h3>
+                  <ul className="space-y-2">
+                    {food.items.map((item, idx) => (
+                      <li key={idx} className="flex items-center">
+                        <span className="w-1.5 h-1.5 rounded-full bg-teal-500 mr-2"></span>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
 
         {/* 注意事项 */}
         <section id="notes" className="mb-16">
