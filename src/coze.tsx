@@ -123,32 +123,32 @@ const QinghaiGansuTour = () => {
     },
     {
       name: '玉门魔山地址公园',
-      description: '"天空之镜"，晴天时湖面倒映蓝天白云，适合拍照。',
-      price: '门票 + 小火车约150元',
+      description: '"1232321312312313。',
+      price: '12323231312',
       image: 'https://example.com/chaka_salt_lake.jpg'
     },
     {
       name: '青海湖',
-      description: '中国最大的内陆咸水湖，湖水碧蓝，环湖风光迷人。',
-      price: '二郎剑景区门票约90元，可乘船游湖',
+      description: '123123123123。',
+      price: '123213123',
       image: 'https://example.com/qinghai_lake.jpg'
     },
     {
       name: '托素湖',
-      description: '藏传佛教格鲁派六大寺院之一，以酥油花、壁画和堆绣闻名，被誉为"艺术三绝"。',
-      price: '门票约80元',
+      description: '12321312312321。',
+      price: '123123123',
       image: 'https://example.com/taer_monastery.jpg'
     },
      {
       name: '察尔汗盐湖',
-      description: '藏传佛教格鲁派六大寺院之一，以酥油花、壁画和堆绣闻名，被誉为"艺术三绝"。',
-      price: '门票约80元',
+      description: '123213123123。',
+      price: '123213123',
       image: 'https://example.com/taer_monastery.jpg'
     },
    {
       name: '水上雅丹',
-      description: '藏传佛教格鲁派六大寺院之一，以酥油花、壁画和堆绣闻名，被誉为"艺术三绝"。',
-      price: '门票约80元',
+      description: '2312312313',
+      price: '12312313123',
       image: 'https://example.com/taer_monastery.jpg'
     }
   ];
@@ -205,7 +205,7 @@ const QinghaiGansuTour = () => {
   const notes = [
     {
       title: '高原反应',
-      content: '青海湖、茶卡盐湖等地海拔3000米左右，避免剧烈运动，备红景天、氧气瓶等抗高反药物。初上高原多喝热水，多休息，不要蹦跳或过于兴奋，注意保暖，千万别感冒。'
+      content: '当地海拔3000米左右，避免剧烈运动，备红景天、氧气瓶等抗高反药物。初上高原多喝热水，多休息，不要蹦跳或过于兴奋，注意保暖，千万别感冒。'
     },
     {
       title: '气候与装备',
@@ -217,7 +217,7 @@ const QinghaiGansuTour = () => {
     },
     {
       title: '景区预约',
-      content: '莫高窟、茶卡盐湖等热门景区需提前预约门票，旺季排队时间长。'
+      content: '莫高窟、玉门魔山等热门景区需提前预约门票，旺季排队时间长。'
     },
     {
       title: '环保意识',
@@ -225,7 +225,7 @@ const QinghaiGansuTour = () => {
     },
     {
       title: '文化尊重',
-      content: '参观寺庙、清真寺时保持安静，尊重少数民族习俗。寺院内禁拍佛像，转经需顺时针。'
+      content: '参观莫高窟时保持安静，尊重少数民族习俗。寺院内禁拍佛像，转经需顺时针。'
     }
   ];
 
@@ -239,9 +239,9 @@ const QinghaiGansuTour = () => {
 
   // 图表数据
   const chartData = [
-    { name: '自然景观', value: 5 },
+    { name: '自然景观', value: 7 },
     { name: '人文景观', value: 3 },
-    { name: '湖泊', value: 4 },
+    { name: '湖泊', value: 5 },
     { name: '沙漠', value: 2 }
   ];
 
@@ -352,7 +352,7 @@ const QinghaiGansuTour = () => {
               行程总览
             </h2>
             <p className="text-gray-600 mb-8">
-              本次青甘大环线逆时针自驾游从西宁出发，途经门源、张掖、嘉峪关、敦煌、大柴旦、德令哈等地，最后返回西宁。全程约2700公里，涵盖了高原湖泊、草原、戈壁、沙漠、雅丹地貌、丹霞地貌等多种自然景观，以及莫高窟等人文历史遗迹。
+              本次青甘大环线顺时针自驾游从西宁出发，途经德令哈、格尔木、大柴旦、敦煌、张掖、嘉峪关、祁连等地，最后返回西宁。全程约3300公里，涵盖了高原湖泊、草原、戈壁、沙漠、雅丹地貌、丹霞地貌等多种自然景观，以及莫高窟等人文历史遗迹。
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
