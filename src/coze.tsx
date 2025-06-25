@@ -91,7 +91,7 @@ const QinghaiGansuTour = () => {
       morning: '前往卓尔山后山，观赏雪山与草原。',
       afternoon: '打卡此程最高海拔景点，近距离目睹雪山。',
       evening: '入住西宁市区民宿',
-      image: ''
+      image: 'https://example.com/taer_monastery.jpg'
     }
   ];
 
@@ -122,7 +122,7 @@ const QinghaiGansuTour = () => {
       image: 'https://example.com/daochaidan_emerald_lake.jpg'
     },
     {
-      name: '玉门魔山地址公园',
+      name: '玉门魔山地质公园',
       description: '"1232321312312313。',
       price: '12323231312',
       image: 'https://example.com/chaka_salt_lake.jpg'
@@ -231,7 +231,7 @@ const QinghaiGansuTour = () => {
 
   // 行程总览数据
   const overviewData = [
-    { name: '总里程', value: '2700公里', icon: <Car size={24} /> },
+    { name: '总里程', value: '3300公里', icon: <Car size={24} /> },
     { name: '最高海拔', value: '3820米', icon: <Mountain size={24} /> },
     { name: '推荐车型', value: 'SUV', icon: <Car size={24} /> },
     { name: '最佳季节', value: '6-9月', icon: <Sun size={24} /> }
