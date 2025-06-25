@@ -611,28 +611,7 @@ const QinghaiGansuTour = () => {
         </section>
       </main>
 
-      <footer className="bg-gray-800 text-white py-12">
-        <div className="container mx-auto px-4 text-center">
-          <div className="mb-4">
-            <ShoppingBag className="inline-block mr-2" size={20} />
-            青甘大环线8天自驾游攻略
-          </div>
-          <div className="text-sm text-gray-400 mb-4">
-            页面内容均由 AI 生成，仅供参考
-          </div>
-          <div className="text-sm">
-            created by{' '}
-            <a
-              href="https://space.coze.cn"
-              className="text-teal-400 underline hover:text-teal-300 transition-colors"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              coze space
-            </a>
-          </div>
-        </div>
-      </footer>
+    
     </div>
   );
 };
