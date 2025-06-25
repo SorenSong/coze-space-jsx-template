@@ -122,7 +122,7 @@ const QinghaiGansuTour = () => {
       image: 'https://example.com/daochaidan_emerald_lake.jpg'
     },
     {
-      name: '茶卡盐湖',
+      name: '玉门魔山地址公园',
       description: '"天空之镜"，晴天时湖面倒映蓝天白云，适合拍照。',
       price: '门票 + 小火车约150元',
       image: 'https://example.com/chaka_salt_lake.jpg'
@@ -134,7 +134,19 @@ const QinghaiGansuTour = () => {
       image: 'https://example.com/qinghai_lake.jpg'
     },
     {
-      name: '塔尔寺',
+      name: '托素湖',
+      description: '藏传佛教格鲁派六大寺院之一，以酥油花、壁画和堆绣闻名，被誉为"艺术三绝"。',
+      price: '门票约80元',
+      image: 'https://example.com/taer_monastery.jpg'
+    }
+     {
+      name: '察尔汗盐湖',
+      description: '藏传佛教格鲁派六大寺院之一，以酥油花、壁画和堆绣闻名，被誉为"艺术三绝"。',
+      price: '门票约80元',
+      image: 'https://example.com/taer_monastery.jpg'
+    }
+   {
+      name: '水上雅丹',
       description: '藏传佛教格鲁派六大寺院之一，以酥油花、壁画和堆绣闻名，被誉为"艺术三绝"。',
       price: '门票约80元',
       image: 'https://example.com/taer_monastery.jpg'
