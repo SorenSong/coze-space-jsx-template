@@ -35,7 +35,7 @@ const QinghaiGansuTour = () => {
       morning: '前往青海湖断崖，路途可观赏大片油菜花，景区有壮观的湟鱼湟鱼洄游和海鸟飞翔（6 - 8月最佳）。',
       afternoon: '沿着环湖西路前往东格尔观景台，近距离接触青海湖。',
       evening: '入住德令哈市区民宿，品尝炕羊肉、青海老酸奶等美食',
-      image: 'https://example.com/zhangye_danxia.jpg'
+      image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_15-41-0811f0623fef464ada.png'
     },
     {
       day: 2,
@@ -43,7 +43,7 @@ const QinghaiGansuTour = () => {
       morning: '前往托素湖，这里湖面辽阔，周围为戈壁滩，以鸟类栖息地和“外星人遗址”地质奇观著称。',
       afternoon: '接着前往察尔汗盐湖，广阔又青绿色的盐湖，彷佛人间绿宝石。',
       evening: '入住格尔木市区民宿，品尝当地美食。',
-      image: 'https://example.com/mingsha_mountain.jpg'
+      image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_15-43-12044b2a055c8ea2a9.png'
     },
     {
       day: 3,
@@ -51,7 +51,7 @@ const QinghaiGansuTour = () => {
       morning: '沿着U型公路前往上水雅丹，沿途可以在安全区域拍摄公路大片，抵达景区参观水上雅丹特殊地貌。',
       afternoon: '途经西台吉乃湖，路边湖水蓝绿双色泾渭分明；折返观赏日落下的荒漠雅丹。',
       evening: '晚上入住大柴旦镇区民宿，品尝当地美食。',
-      image: 'https://example.com/mogao_caves.jpg'
+      image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_15-44-499a0ff97a9cc2bcc4.png'
     },
     {
       day: 4,
@@ -59,7 +59,7 @@ const QinghaiGansuTour = () => {
       morning: '前往大柴旦翡翠湖，这里有大地的调色盘，欣赏大自然的色彩美学盐湖。',
       afternoon: '穿越雅丹地貌，前往黑独山，观赏中国水墨画的山脉。',
       evening: '入住敦煌市区民宿，逛敦煌夜市，品尝驴肉黄面、杏皮水等特色。',
-      image: 'https://example.com/daochaidan_emerald_lake.jpg'
+      image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_15-45-57b8974fdbad34ad0d.png'
     },
     {
       day: 5,
@@ -67,7 +67,7 @@ const QinghaiGansuTour = () => {
       morning: '自由行动，保存体能，可前往免费的敦煌博物馆了解敦煌的历史',
       afternoon: '前往鸣沙山月牙泉，体验骑骆驼，欣赏沙漠日落。',
       evening: '入住敦煌市区民宿，逛敦煌夜市，品尝驴肉黄面、杏皮水等特色。',
-      image: ''
+      image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_15-46-41acdf0dd397a8fadf.png'
     },
     {
       day: 6,
@@ -75,7 +75,7 @@ const QinghaiGansuTour = () => {
       morning: '参观莫高窟，这是世界文化遗产，有着千年的壁画和雕塑，是艺术的殿堂。记得提前预约门票，B票也能看8个洞窟，建议带个小手电。',
       afternoon: '前往玉门魔山地质公园，这里拥有多种独特地貌，包括丹霞地貌、波浪谷、硅化木群、古生物化石群以及红柳峡峡谷景观等。',
       evening: '入住嘉峪关市区民宿，逛嘉峪关古城，品尝当地美食。',
-      image: 'https://example.com/chaka_salt_lake.jpg'
+      image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_15-47-366e7e5effb01283e1.png'
     },
     {
       day: 7,
@@ -83,7 +83,7 @@ const QinghaiGansuTour = () => {
       morning: '前往张掖丹霞国家地质公园，参观游览。这里是中国最美的丹霞地貌之一，多个观景台的最佳观赏时机在阳光灿烂之后。',
       afternoon: '沿着二尕公路前往祁连，一路上，我们能看到草原、森林、溪流、冰川、牛羊成群。',
       evening: '入住祁连县，品尝老酸奶、甜醅等当地美食。',
-      image: 'https://example.com/taer_monastery.jpg'
+      image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_15-48-5995f7c7106d13ec46.png'
     },
     {
       day: 8,
@@ -91,7 +91,7 @@ const QinghaiGansuTour = () => {
       morning: '前往卓尔山后山，观赏雪山与草原。',
       afternoon: '打卡此程最高海拔景点，近距离目睹雪山。',
       evening: '入住西宁市区民宿',
-      image: 'https://example.com/taer_monastery.jpg'
+      image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_15-49-358069a09ff528e8e8.png'
     }
   ];
 
