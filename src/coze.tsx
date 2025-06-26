@@ -146,17 +146,30 @@ const QinghaiGansuTour = () => {
       image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_15-12-48f9839ce39ddaf855.png'
     },
     {
-      name: '张掖七彩丹霞',
-      description: '风景如画，是中国最美丹霞地貌之一，多个观景台的最佳观赏时机在阳光灿烂之后。',
-      price: '门票 + 观光车约75元',
-      image: 'https://example.com/zhangye_danxia.jpg'
+      name: '玉门魔山地质公园',
+      description: '将丹霞的烈焰、雅丹的异星线条与峡谷的四季变幻浓缩成一场视觉盛宴。晨雾中的怪石似猛虎下山，夕阳下的赤岩如燃烧的火焰，这里是自然与古老文明共同书写的星球奇境。',
+      price: '门票20元/人',
+      image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_15-18-1677d0c9bf9b32ea05.png'
     },
     {
-      name: '玉门魔山地质公园',
-      description: '"1232321312312313。',
-      price: '12323231312',
-      image: 'https://example.com/chaka_salt_lake.jpg'
+      name: '张掖七彩丹霞',
+      description: '张掖七彩丹霞是中国北方干旱地区最典型的丹霞地貌景观，以色彩斑斓、形态奇特的红色砂砾岩层闻名，被列入《世界遗产名录》并获评多项国际地理殊荣。‌',
+      price: '门票 + 观光车约93元/人，老人学生66元',
+      image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_15-24-596e2767ec49babcc2.png'
     },
+    {
+      name: '卓尔山后山',
+      description: '卓尔山后山是卓尔山景区的重要组成部分，以其壮丽的丹霞地貌和开阔的视野，成为游客观景、徒步、摄影的好去处。',
+      price: '免费开放',
+      image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_15-25-4530a796709224d184.png'
+    },
+    {
+      name: '岗什卡雪峰',
+      description: '岗什卡雪峰是祁连山的璀璨明珠。皑皑白雪覆于山巅,在日光下圣洁耀眼,冰川、冰瀑、湖泊错落分布,风景层次丰富。',
+      price: '门票 + 观光车约25元/人',
+      image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_15-27-03729dad91ab506821.png'
+    },
+  
   ];
 
   // 住宿建议
