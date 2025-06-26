@@ -97,6 +97,36 @@ const QinghaiGansuTour = () => {
 
   // 景点数据
   const attractions = [
+     {
+      name: '青海湖断崖',
+      description: '青海湖断崖,绝美小众拍摄地让你刷爆朋友圈,站在断崖看青海湖与其他角度看到得青海湖的静谧形成鲜明对比。',
+      price: '免门票，观光车：40元/人',
+      image: 'https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAImQGhc03UbIUCaAhz12VZrgoU4etBlAAJUFgACvxDoVt68jpC5cd6SNgQ.png'
+    },
+    {
+      name: '托素湖',
+      description: '托素湖是典型的内陆咸水湖,湖的周围全是茫茫的戈壁滩,托素湖湖面辽阔、湖岸开阔,无遮无拦。风平浪静时,湖面烟波浩森,水天一色,蔚为壮观。',
+      price: '免费开放',
+      image: 'https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAImP2hc0TFezIk9NkXRtFKLttcrpryfAAJBFgACvxDoVtA9lR4sgsvwNgQ.png'
+    },
+    {
+      name: '察尔汗盐湖',
+      description: '察尔汗盐湖，位于柴达木盆地的南部， 横跨格尔木与都兰两市县，其面积辽阔，堪称茶卡盐湖的56倍之大。',
+      price: '门票98元，老人60，学生80元',
+      image: 'https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAImPmhczyEZ9g9whkhWdER6UBoBMpSQAAIvFgACvxDoVhhtpOYMJJGXNgQ.png'
+    },
+    {
+      name: '乌素特(水上)雅丹',
+      description: '乌素特(水上)雅丹地质公园位于青海柴达木盆地的西北部,历经千万年的地质运动和时空苍变,孕育和形成一片世界面积最大、最为壮观的雅丹群落。',
+      price: '门票+观光车为118元，老人60元，学生90元',
+      image: 'https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAImNGhcvuL4zxZNqDji1j4f9dwlo92_AAL7FQACvxDoVnZPvaH-kricNgQ.png'
+    }
+     {
+      name: '大柴旦翡翠湖',
+      description: '大小盐湖群，湖水呈现碧绿、浅蓝等色彩，宛如宝石镶嵌。',
+      price: '免费开放',
+      image: 'https://example.com/daochaidan_emerald_lake.jpg'
+    },
     {
       name: '张掖七彩丹霞',
       description: '风景如画，是中国最美丹霞地貌之一，多个观景台的最佳观赏时机在阳光灿烂之后。',
@@ -116,41 +146,11 @@ const QinghaiGansuTour = () => {
       image: 'https://example.com/mingsha_mountain.jpg'
     },
     {
-      name: '大柴旦翡翠湖',
-      description: '大小盐湖群，湖水呈现碧绿、浅蓝等色彩，宛如宝石镶嵌。',
-      price: '免费开放',
-      image: 'https://example.com/daochaidan_emerald_lake.jpg'
-    },
-    {
       name: '玉门魔山地质公园',
       description: '"1232321312312313。',
       price: '12323231312',
       image: 'https://example.com/chaka_salt_lake.jpg'
     },
-    {
-      name: '青海湖',
-      description: '123123123123。',
-      price: '123213123',
-      image: 'https://example.com/qinghai_lake.jpg'
-    },
-    {
-      name: '托素湖',
-      description: '12321312312321。',
-      price: '123123123',
-      image: 'https://example.com/taer_monastery.jpg'
-    },
-     {
-      name: '察尔汗盐湖',
-      description: '察尔汗盐湖，位于柴达木盆地的南部， 横跨格尔木与都兰两市县，其面积辽阔，堪称茶卡盐湖的56倍之大。',
-      price: '门票98元，老人60，学生80元',
-      image: 'https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAImPmhczyEZ9g9whkhWdER6UBoBMpSQAAIvFgACvxDoVhhtpOYMJJGXNgQ.png'
-    },
-   {
-      name: '乌素特(水上)雅丹地质公园',
-      description: '乌素特(水上)雅丹地质公园位于青海柴达木盆地的西北部,历经千万年的地质运动和时空苍变,孕育和形成一片世界面积最大、最为壮观的雅丹群落。',
-      price: '门票+观光车为118元，老人60元，学生90元',
-      image: 'https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAImNGhcvuL4zxZNqDji1j4f9dwlo92_AAL7FQACvxDoVnZPvaH-kricNgQ.png'
-    }
   ];
 
   // 住宿建议
