@@ -124,8 +124,8 @@ const QinghaiGansuTour = () => {
      {
       name: '大柴旦翡翠湖',
       description: '大小盐湖群，湖水呈现碧绿、浅蓝等色彩，宛如宝石镶嵌。',
-      price: '免费开放',
-      image: 'https://example.com/daochaidan_emerald_lake.jpg'
+      price: '门票50元/人',
+      image: 'https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAImQWhc1URmkIPFHzw6u1f_MflGr0JJAAJsFgACvxDoVtVxkcaaAAGj4TYE.png'
     },
     {
       name: '张掖七彩丹霞',
