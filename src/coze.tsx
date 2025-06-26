@@ -194,9 +194,17 @@ const QinghaiGansuTour = () => {
       location: '德令哈',
       suggestion: '可选择市区的商务酒店。'
     },
+     {
+      location: '格尔木',
+      suggestion: '可选择市区的商务酒店。'
+    },
+     {
+      location: '嘉峪关',
+      suggestion: '可选择市区的商务酒店。'
+    },
     {
-      location: '青海湖',
-      suggestion: '黑马河乡附近有很多民宿可供选择，方便欣赏青海湖日出和日落。'
+      location: '祁连',
+      suggestion: '可选择市区的商务酒店。'
     }
   ];
 
@@ -250,7 +258,7 @@ const QinghaiGansuTour = () => {
 
   // 行程总览数据
   const overviewData = [
-    { name: '总里程', value: '3300公里', icon: <Car size={24} /> },
+    { name: '总里程', value: '3100公里', icon: <Car size={24} /> },
     { name: '最高海拔', value: '3820米', icon: <Mountain size={24} /> },
     { name: '推荐车型', value: 'SUV', icon: <Car size={24} /> },
     { name: '最佳季节', value: '6-9月', icon: <Sun size={24} /> }
@@ -371,7 +379,7 @@ const QinghaiGansuTour = () => {
               行程总览
             </h2>
             <p className="text-gray-600 mb-8">
-              本次青甘大环线顺时针自驾游从西宁出发，途经德令哈、格尔木、大柴旦、敦煌、张掖、嘉峪关、祁连等地，最后返回西宁。全程约3300公里，涵盖了高原湖泊、草原、戈壁、沙漠、雅丹地貌、丹霞地貌等多种自然景观，以及莫高窟等人文历史遗迹。
+              本次青甘大环线顺时针自驾游从西宁出发，途经德令哈、格尔木、大柴旦、敦煌、嘉峪关、张掖、祁连等地，最后返回西宁。全程约3300公里，涵盖了高原湖泊、草原、戈壁、沙漠、雅丹地貌、丹霞地貌等多种自然景观，以及莫高窟等人文历史遗迹。
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
