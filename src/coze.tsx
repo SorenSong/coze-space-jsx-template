@@ -134,22 +134,22 @@ const QinghaiGansuTour = () => {
       image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_14-55-01a91adb060d7fb1b4.png'
     },
     {
-      name: '张掖七彩丹霞',
-      description: '风景如画，是中国最美丹霞地貌之一，多个观景台的最佳观赏时机在阳光灿烂之后。',
-      price: '门票 + 观光车约75元',
-      image: 'https://example.com/zhangye_danxia.jpg'
+      name: '鸣沙山月牙泉',
+      description: '位于敦煌市区以南约5公里处,这里沙山与泉水共处,历来以“沙漠奇观”著称于世,是敦煌的名片之一。在这里你可以爬上鸣沙山,俯瞰月牙泉,还能在山顶上欣赏大漠日落,感受西北大漠的苍凉广阔。',
+      price: '门票110元，老人学生半价，骆驼骑行另计',
+      image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_15-11-20ef761337a434f3ed.png'
     },
     {
       name: '莫高窟',
       description: '世界文化遗产，有着千年的壁画和雕塑，是艺术的殿堂。票务需提前预定，普通票可参观8个洞窟，还可选择数字展示中心 + 实体洞窟的套票。',
       price: '门票约238元（含数字展示中心）',
-      image: 'https://example.com/mogao_caves.jpg'
+      image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_15-12-48f9839ce39ddaf855.png'
     },
     {
-      name: '鸣沙山月牙泉',
-      description: '沙漠绿洲奇观，骑骆驼或滑沙体验。傍晚时分景色更佳，还能欣赏沙漠日落。',
-      price: '门票约110元，骆驼骑行另计',
-      image: 'https://example.com/mingsha_mountain.jpg'
+      name: '张掖七彩丹霞',
+      description: '风景如画，是中国最美丹霞地貌之一，多个观景台的最佳观赏时机在阳光灿烂之后。',
+      price: '门票 + 观光车约75元',
+      image: 'https://example.com/zhangye_danxia.jpg'
     },
     {
       name: '玉门魔山地质公园',
