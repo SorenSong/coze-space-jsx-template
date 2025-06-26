@@ -141,14 +141,14 @@ const QinghaiGansuTour = () => {
     },
      {
       name: '察尔汗盐湖',
-      description: '123213123123。',
-      price: '123213123',
-      image: 'https://example.com/taer_monastery.jpg'
+      description: '察尔汗盐湖，位于柴达木盆地的南部， 横跨格尔木与都兰两市县，其面积辽阔，堪称茶卡盐湖的56倍之大。',
+      price: '门票98元，老人60，学生80元',
+      image: 'https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAImPmhczyEZ9g9whkhWdER6UBoBMpSQAAIvFgACvxDoVhhtpOYMJJGXNgQ.png'
     },
    {
       name: '乌素特(水上)雅丹地质公园',
-      description: '素特雅丹地质公园位于青海柴达木盆地的西北部,历经千万年的地质运动和时空苍变,孕育和形成一片世界面积最大、最为壮观的雅丹群落',
-      price: '门票+观光车为118元，老人60元，学生90元。',
+      description: '乌素特(水上)雅丹地质公园位于青海柴达木盆地的西北部,历经千万年的地质运动和时空苍变,孕育和形成一片世界面积最大、最为壮观的雅丹群落。',
+      price: '门票+观光车为118元，老人60元，学生90元',
       image: 'https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAImNGhcvuL4zxZNqDji1j4f9dwlo92_AAL7FQACvxDoVnZPvaH-kricNgQ.png'
     }
   ];
