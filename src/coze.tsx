@@ -127,6 +127,12 @@ const QinghaiGansuTour = () => {
       price: '门票50元/人',
       image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_13-05-545a7e448204f5de35.png'
     },
+     {
+      name: '黑独山',
+      description: '位于青海省茫崖市冷湖镇附近的一处独特地貌景观。它以其独特的黑色雅丹地貌和荒凉、孤寂的氛围而闻名，被形容为“地球上最像月球的地方”和“戈壁水墨画”。',
+      price: '门票60元/人',
+      image: 'https://youjb.com/images/2025/06/26/PixPin_2025-06-26_14-55-01a91adb060d7fb1b4.png'
+    },
     {
       name: '张掖七彩丹霞',
       description: '风景如画，是中国最美丹霞地貌之一，多个观景台的最佳观赏时机在阳光灿烂之后。',
