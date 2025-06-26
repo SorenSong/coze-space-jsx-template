@@ -258,7 +258,7 @@ const QinghaiGansuTour = () => {
 
   // 行程总览数据
   const overviewData = [
-    { name: '总里程', value: '3100公里', icon: <Car size={24} /> },
+    { name: '总里程', value: '约3200公里', icon: <Car size={24} /> },
     { name: '最高海拔', value: '3820米', icon: <Mountain size={24} /> },
     { name: '推荐车型', value: 'SUV', icon: <Car size={24} /> },
     { name: '最佳季节', value: '6-9月', icon: <Sun size={24} /> }
@@ -547,7 +547,7 @@ const QinghaiGansuTour = () => {
         <section id="accommodation" className="mb-16">
           <h2 className="text-3xl font-bold mb-8 flex items-center">
             <Hotel className="text-teal-600 mr-3" size={28} />
-            住宿建议
+            住宿
           </h2>
 
           <div className="bg-white rounded-xl shadow-lg p-6">
