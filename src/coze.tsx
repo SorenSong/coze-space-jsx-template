@@ -35,7 +35,7 @@ const QinghaiGansuTour = () => {
       morning: '前往青海湖断崖，路途可观赏大片油菜花，景区有壮观的湟鱼湟鱼洄游和海鸟飞翔（6 - 8月最佳）。',
       afternoon: '沿着环湖西路前往东格尔观景台，近距离接触青海湖。',
       evening: '入住德令哈市区民宿，品尝炕羊肉、青海老酸奶等美食',
-      image: 'https://youjb.com/images/2025/07/15/PixPin_2025-07-15_13-12-2132e75e49202738c9.png'
+      image: 'https://youjb.com/images/2025/07/15/PixPin_2025-07-15_13-12-2192164f7591ce2c99.png'
     },
     {
       day: 2,
