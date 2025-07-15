@@ -176,35 +176,35 @@ const QinghaiGansuTour = () => {
   const accommodations = [
     {
       location: '西宁',
-      suggestion: '建议选择城西区的酒店，方便第二天出发。如如家精选（西宁火车站广场店），离火车站很近，打车10元左右，有早餐，前台可代收快递。'
+      suggestion: '建议选择城西区的民宿，方便第二天出发。'
     },
     {
-      location: '张掖',
-      suggestion: '可选择住在七彩丹霞景区附近的酒店，如七彩丹霞沟隐原舍酒店，离景区很近，能起得来的小伙伴第二天可以步行去景区看日出。'
+      location: '嘉峪关',
+      suggestion: '可选择住在嘉峪关附近的酒店和民宿。'
     },
     {
       location: '敦煌',
-      suggestion: '推荐IU酒店（敦煌市政广场店），地理位置优越，步行可到敦煌夜市。'
+      suggestion: '推荐敦湖花园民宿，地理位置优越，步行可到敦煌夜市。'
     },
     {
       location: '大柴旦',
-      suggestion: '丽湖雅致大酒店（翡翠商业步行街店）等。'
+      suggestion: '可选择镇上的商务酒店或民宿。'
     },
     {
       location: '德令哈',
-      suggestion: '可选择市区的商务酒店。'
+      suggestion: '可选择市区的民宿。'
     },
      {
       location: '格尔木',
-      suggestion: '可选择市区的商务酒店。'
+      suggestion: '可选择市区的民宿。'
     },
      {
       location: '嘉峪关',
-      suggestion: '可选择市区的商务酒店。'
+      suggestion: '可选择市区的民宿。'
     },
     {
       location: '祁连',
-      suggestion: '可选择市区的商务酒店。'
+      suggestion: '可选择市区的商务酒店或民宿。'
     }
   ];
 
