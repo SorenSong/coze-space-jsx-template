@@ -258,7 +258,7 @@ const QinghaiGansuTour = () => {
 
   // 行程总览数据
   const overviewData = [
-    { name: '总里程', value: '约3200公里', icon: <Car size={24} /> },
+    { name: '总里程', value: '约3500公里', icon: <Car size={24} /> },
     { name: '最高海拔', value: '3820米', icon: <Mountain size={24} /> },
     { name: '推荐车型', value: 'SUV', icon: <Car size={24} /> },
     { name: '最佳季节', value: '6-9月', icon: <Sun size={24} /> }
